@@ -1,0 +1,12 @@
+.country-img {
+    size: 40vh;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.country-name {
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: left;
+    display: flex;
+    align-content: flex-start;
+}
