@@ -1,3 +1,4 @@
+@import "footer.css";
 .country-img {
     size: 40vh;
     display: flex;
@@ -10,3 +11,6 @@
     display: flex;
     align-content: flex-start;
 }
+
+/* Footer Styling */
+
