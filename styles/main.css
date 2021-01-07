@@ -1,14 +1,54 @@
-@import "nav-bar.css"; /* Nav Bar Styling */
-@import "footer.css"; /* Footer Styling */
+/* Nav Bar Styling */
+@import "nav-bar.css"; 
+/* Footer Styling */
+@import "footer.css"; 
 
-* {
-    border: 1px dotted black;
+/* Set Variables */
+:root {
+    /* Define Color Variables */
+    --mainBlue: #53ADC7;
+    --navyBlue: #023436;
+    --goldYellow: #E6AF2E;
+    --umber: #7C6354;
+    --gray: #D0E1E4;
 }
 
-.country-img {
-    size: 40vh;
+/* -------------------------- General Styling -------------------------- */
+* {
+    border: 1px dotted black;
+    background-color: var(--gray);
+    color: var(--navyBlue);
+}
+
+.flex-Container {
     display: flex;
-    justify-content: flex-start;
+}
+
+/* -------------------------- Header Styling -------------------------- */
+header {
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: xx-large;
+}
+
+.globe {
+    height: 20vh; 
+}
+
+/* -------------------------- Country Header Styling -------------------------- */
+.country-img {
+    width: 100vw;
+    height: 20vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    background-color: var(--mainBlue);
+
+}
+
+.country-img img {
+    width: auto;
+    
 }
 
 .country-name {
@@ -18,25 +58,15 @@
     align-content: flex-start;
 }
 
+/* -------------------------- List Section Styling -------------------------- */
+section.flex-Container {
+    justify-content: space-evenly;
+}
 
+div {
+    width: 25vw;
+}
 
-/* Navbar styling
- */
-
- .globe {
-    height: 20vh; 
- }
- 
- .nav-container {
-     display: flex;
-     justify-content: space-evenly;
- }
- 
- .links {
-     text-decoration: none;
-     
- }
- 
- .nav-item {
-     list-style-type: none;
- }
+h3 {
+    text-align: center;
+}
