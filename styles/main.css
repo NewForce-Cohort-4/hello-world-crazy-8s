@@ -1,4 +1,6 @@
+@import "nav-bar.css";
 @import "footer.css";
+
 .country-img {
     size: 40vh;
     display: flex;
@@ -14,3 +16,23 @@
 
 /* Footer Styling */
 
+/* Navbar styling
+ */
+
+ .globe {
+    height: 20vh; 
+ }
+ 
+ .nav-container {
+     display: flex;
+     justify-content: space-evenly;
+ }
+ 
+ .links {
+     text-decoration: none;
+     
+ }
+ 
+ .nav-item {
+     list-style-type: none;
+ }
