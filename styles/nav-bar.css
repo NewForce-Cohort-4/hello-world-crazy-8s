@@ -24,14 +24,15 @@ ul {
  
 .links {
     text-decoration: none;
-
+    background-color: var(--goldYellow);
 }
 
-/* .nav-container a:hover {
+.nav-item a:hover {
     color: red;
-} */
+}
  
 .nav-item {
     list-style-type: none;
+    
 }
 

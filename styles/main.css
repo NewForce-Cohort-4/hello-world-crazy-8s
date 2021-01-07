@@ -18,10 +18,15 @@
     border: 1px dotted black;
     background-color: var(--gray);
     color: var(--navyBlue);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .flex-Container {
     display: flex;
+}
+
+body {
+    margin: 0;
 }
 
 /* -------------------------- Header Styling -------------------------- */
@@ -37,13 +42,18 @@ header {
 
 /* -------------------------- Country Header Styling -------------------------- */
 .country-img {
+    border: 2px solid black;
+    margin: none;
+    padding: none;
     width: 100vw;
     height: 20vh;
     overflow: hidden;
     display: flex;
     justify-content: center;
-    background-color: var(--mainBlue);
-
+    background: url(https://familytraveller.com/usa/wp-content/uploads/sites/2/2019/10/bergen-norway-frozen-inspired-family-vacation.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -200px;
 }
 
 .country-img img {
@@ -52,10 +62,9 @@ header {
 }
 
 .country-name {
-    font-family: Arial, Helvetica, sans-serif;
-    justify-content: left;
-    display: flex;
-    align-content: flex-start;
+    padding-left: 1em;
+    padding-right: 1em;
+    
 }
 
 /* -------------------------- List Section Styling -------------------------- */
