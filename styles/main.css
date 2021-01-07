@@ -1,5 +1,9 @@
-@import "nav-bar.css";
-@import "footer.css";
+@import "nav-bar.css"; /* Nav Bar Styling */
+@import "footer.css"; /* Footer Styling */
+
+* {
+    border: 1px dotted black;
+}
 
 .country-img {
     size: 40vh;
@@ -14,7 +18,7 @@
     align-content: flex-start;
 }
 
-/* Footer Styling */
+
 
 /* Navbar styling
  */
