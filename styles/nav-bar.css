@@ -13,13 +13,10 @@ nav {
     background-color: var(--goldYellow);
 }
 
-ul {
-    background-color: var(--goldYellow);
-}
-
 .nav-container {
     display: flex;
     justify-content: space-evenly;
+    background-color: var(--goldYellow);
 }
  
 .links {

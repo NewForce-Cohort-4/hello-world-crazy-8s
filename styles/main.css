@@ -34,6 +34,11 @@ header {
     justify-content: space-evenly;
     align-items: center;
     font-size: xx-large;
+    background-color: var(--mainBlue);
+}
+
+h1 {
+    background-color: var(--mainBlue);
 }
 
 .globe {
@@ -46,25 +51,25 @@ header {
     margin: none;
     padding: none;
     width: 100vw;
-    height: 20vh;
+    height: 30vh;
     overflow: hidden;
     display: flex;
     justify-content: center;
     background: url(https://familytraveller.com/usa/wp-content/uploads/sites/2/2019/10/bergen-norway-frozen-inspired-family-vacation.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position-y: -200px;
-}
-
-.country-img img {
-    width: auto;
-    
+    background-position-y: -120px;
 }
 
 .country-name {
     padding-left: 1em;
     padding-right: 1em;
-    
+    text-align: center;
+    background-color: var(--mainBlue);
+}
+
+h2 {
+    background-color: var(--mainBlue);
 }
 
 /* -------------------------- List Section Styling -------------------------- */
@@ -73,9 +78,20 @@ section.flex-Container {
 }
 
 div {
-    width: 25vw;
+    width: 40vw;
+    background-color: var(--goldYellow);
 }
 
 h3 {
     text-align: center;
+    border-bottom: 2px solid var(--umber);
+    background-color: var(--goldYellow)
+}
+
+div ul {
+    background-color: var(--goldYellow);
+}
+
+div ul li {
+    background-color: var(--goldYellow);
 }
