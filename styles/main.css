@@ -16,21 +16,3 @@
 
 /* Footer Styling */
 
-/* nav-bar styling */
-.globe {
-    height: 20vh; 
- }
- 
- .nav-container {
-     display: flex;
-     justify-content: space-evenly;
- }
- 
- .links {
-     text-decoration: none;
-     
- }
- 
- .nav-item {
-     list-style-type: none;
- }
