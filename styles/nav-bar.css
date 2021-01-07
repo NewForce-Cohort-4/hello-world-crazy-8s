@@ -1,17 +1,35 @@
-/* .globe {
-   height: 20vh; 
+/* Navbar styling */
+
+:root {
+    /* Define Color Variables */
+    --mainBlue: #53ADC7;
+    --navyBlue: #023436;
+    --goldYellow: #E6AF2E;
+    --umber: #7C6354;
+    --gray: #D0E1E4;
+}
+
+nav {
+    background-color: var(--goldYellow);
 }
 
 .nav-container {
     display: flex;
     justify-content: space-evenly;
+    background-color: var(--goldYellow);
 }
-
+ 
 .links {
     text-decoration: none;
+    background-color: var(--goldYellow);
+}
+
+.nav-item a:hover {
+    color: red;
+}
+ 
+.nav-item {
+    list-style-type: none;
     
 }
 
-.nav-item {
-    list-style-type: none;
-} */
