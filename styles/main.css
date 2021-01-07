@@ -1,4 +1,6 @@
+@import "nav-bar.css";
 @import "footer.css";
+
 .country-img {
     size: 40vh;
     display: flex;
