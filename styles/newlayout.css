@@ -3,7 +3,7 @@
     flex-wrap: wrap;
     justify-content: center;
     justify-content: space-between;
-    padding: 6em;
+    padding: 1em;
 }
 
 .bullets__space {
@@ -35,7 +35,7 @@ header {
 .Greece {
     border: 2px solid black;
     margin: none;
-    padding: none;
+    padding: 0.5em;
     width: 100vw;
     height: 20vh;
     overflow: hidden;
@@ -57,9 +57,15 @@ header {
 .titles {
     font-family: 'Cinzel', serif;
     text-shadow: 2px 1px lightgray;
+    display: flex;
+    justify-content: center;
 }
 
-
+li {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
 
 
 
