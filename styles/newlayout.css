@@ -3,7 +3,8 @@
     flex-wrap: wrap;
     justify-content: center;
     justify-content: space-between;
-    padding: 1em;
+    padding: 5em;
+    margin: 0.5em;
 }
 
 .bullets__space {
