@@ -2,11 +2,28 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     padding: 6em;
-    
 }
-<style> */
+
+.bullets__space {
+    justify-content: space-between;
+}
+
+.co__name {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 8em;
+}
+
+
+
+
+
+
+
+/* <style> */ */
 .zoom {
   padding: 50px;
   transition: transform .100s; /* Animation */
@@ -17,6 +34,6 @@
 
 .zoom:hover {
   transform: scale(3.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
- }</style>
+ /* }</style> */ */
 
-<div class="zoom"></div>
+/* <div class="zoom"></div> */

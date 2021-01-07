@@ -2,14 +2,15 @@
 @import "footer.css";
 @import "newlayout.css";
 
-/* *{
-    border: solid black;
-} */
+* {
+    border: dotted black;
+}
 
 .country-img {
     display: flex;
     width: 55vw;
-    margin-left: 12%;
+    margin-left: 18%;
+    
     
 }
 
