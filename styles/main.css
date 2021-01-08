@@ -1,0 +1,25 @@
+@import "nav-bar.css";
+@import "footer.css";
+@import "newlayout.css";
+
+/* * {
+    border: dotted black;
+} */
+
+.country-img {
+    display: flex;
+    width: 55vw;
+    margin-left: 18%;
+    background-size: 2em;
+    
+    
+}
+
+.country-name {
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: left;
+    display: flex;
+    align-content: flex-start;
+}
+
+/* Footer Styling */
