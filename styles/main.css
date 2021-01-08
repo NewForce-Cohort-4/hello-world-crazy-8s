@@ -1,0 +1,38 @@
+@import "nav-bar.css";
+@import "footer.css";
+
+.country-img {
+    size: 40vh;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.country-name {
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: left;
+    display: flex;
+    align-content: flex-start;
+}
+
+/* Footer Styling */
+
+/* Navbar styling
+ */
+
+ .globe {
+    height: 20vh; 
+ }
+ 
+ .nav-container {
+     display: flex;
+     justify-content: space-evenly;
+ }
+ 
+ .links {
+     text-decoration: none;
+     
+ }
+ 
+ .nav-item {
+     list-style-type: none;
+ }
