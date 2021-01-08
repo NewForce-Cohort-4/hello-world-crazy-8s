@@ -11,6 +11,7 @@
     --goldYellow: #E6AF2E;
     --umber: #7C6354;
     --gray: #D0E1E4;
+    --listCardWidth: 28vw;
 }
 
 /* -------------------------- General Styling -------------------------- */
@@ -43,6 +44,7 @@ h1 {
 
 .globe {
     height: 20vh; 
+    background-color: var(--mainBlue);
 }
 
 /* -------------------------- Country Header Styling -------------------------- */
@@ -79,7 +81,7 @@ section.flex-Container {
 
 div.flex-Container {
     flex-direction: column;
-    width: 28vw;
+    width: var(--listCardWidth);
     background-color: var(--goldYellow);
 }
 
@@ -90,7 +92,11 @@ article {
 h3 {
     text-align: center;
     border-bottom: 2px solid var(--umber);
-    background-color: var(--goldYellow)
+    background-color: var(--goldYellow);
+    padding: 0;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    margin-bottom: 0;
 }
 
 h4 {
@@ -109,5 +115,5 @@ div ul li {
 }
 
 .list-img {
-    width: 25vw;
+    width: var(--listCardWidth);
 }
