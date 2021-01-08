@@ -6,6 +6,10 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body {
+    margin: 1em;
+    background-color: slategrey;
+}
 
 /* Header/Logo Styling */
 header {
@@ -15,6 +19,8 @@ header {
 }
 
 h1 {
+    font-family: 'Cinzel', serif;
+    text-shadow: 2px 1px slategrey
     font-size: 4em;
 }
 
@@ -68,27 +74,30 @@ h1 {
 .country-intro {
     justify-content: center;
     align-items: center;
+    font-family: 'Cinzel', serif;
+    text-shadow: 2px 1px slategrey
 }
 
-
-.country-imgage {
-    /* border: 2px solid black;
-    margin: 0;
-    padding: 0;
-    width: 100vw;
-    height: 20vh;
+.country-image {
+    border: 2px solid black;
+    margin: none;
+    padding: none;
+    width: 100vw-1em;
+    height: 35vh;
     overflow: hidden;
     display: flex;
     justify-content: center;
-    background: url(https://images.unsplash.com/photo-1518730518541-d0843268c287?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80);
+    background: url(https://cdn1.matadornetwork.com/blogs/1/2011/05/italy-1200x815.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: -300px; */
+    background-position-y: -20vw;
 }
 
+
 .country-name {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 3em;
+    font-family: 'Cinzel', serif;
+    text-shadow: 2px 1px slategrey;
+    font-size: 4em;
     text-align: center;
     margin: 1em 0 0 0;
 }
@@ -118,8 +127,24 @@ h1 {
 .list-title {
     font-size: large;
     align-items: center;
+    font-family: 'Cinzel', serif;
+    text-shadow: 2px 1px slategrey;
 }
 
 .list-container {
    justify-content: center;
 }
+
+.list-item {
+    margin: 40px 40px 0 40px;
+    text-align: center;
+    list-style-type: none;
+}
+
+.list-image {
+    width: 25vw;
+    height: 30vh;
+    list-style-type: none;
+    margin-top: 0px;
+}
+
