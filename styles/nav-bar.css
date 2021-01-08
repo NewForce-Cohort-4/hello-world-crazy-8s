@@ -27,7 +27,7 @@ nav {
 }
 
 .nav-item a:hover {
-    color: red;
+    color: var(--navyBlue);
 }
  
 .nav-item {
