@@ -1,11 +1,5 @@
-/* footer {
-    display: flex;
-    flex-wrap: wrap;
-    text-align: center;
-    margin: 15em;
-    padding: 0.5em;
-} */
 footer {
-    display: flex;
-    justify-content: space-around;
+    text-align: center;
 }
+
+
