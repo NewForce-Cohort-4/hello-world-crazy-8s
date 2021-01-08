@@ -52,12 +52,12 @@ header {
     display: flex;
     justify-content: center;
     font-family: 'Cinzel', serif;
-    text-shadow: 2px 1px lightgray;
+    text-shadow: 2px 1px cadetblue;
 }
 
 .titles {
     font-family: 'Cinzel', serif;
-    text-shadow: 2px 1px lightgray;
+    text-shadow: 2px 1px cadetblue;
     display: flex;
     justify-content: center;
 }
