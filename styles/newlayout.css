@@ -21,12 +21,13 @@
     justify-content: space-evenly;
     width: 10em;
     font-family: 'Cinzel', serif;
-    text-shadow: 2px 1px cadetblue;
+    text-shadow: 2px 1px slateblue;
     margin: 1.5em;
 }
 
 header {
     display: flex;
+    background-color: #53ADC7;
 }
 
 .motto {
@@ -34,7 +35,7 @@ header {
     flex-wrap: wrap;
     padding-top: 0.75em;
     font-family: 'Cinzel', serif;
-    text-shadow: 2px 1px cadetblue;
+    text-shadow: 2px 1px slateblue;
 }
 
 .Greece {
@@ -56,12 +57,12 @@ header {
     display: flex;
     justify-content: center;
     font-family: 'Cinzel', serif;
-    text-shadow: 2px 1px cadetblue;
+    text-shadow: 1px 1px slateblue;
 }
 
 .titles {
     font-family: 'Cinzel', serif;
-    text-shadow: 2px 1px cadetblue;
+    text-shadow: 1px 1px slateblue;
     display: flex;
     justify-content: center;
 }
