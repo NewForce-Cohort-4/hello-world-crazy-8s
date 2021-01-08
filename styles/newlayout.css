@@ -1,0 +1,89 @@
+/* body {
+    background-color: lightskyblue;
+} */
+
+.bullets {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding: 3em;
+    
+}
+
+.bullets__space {
+    justify-content: space-between;
+}
+
+.co__name {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 10em;
+    font-family: 'Cinzel', serif;
+    text-shadow: 2px 1px cadetblue;
+    margin: 1.5em;
+}
+
+header {
+    display: flex;
+}
+
+.motto {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 0.75em;
+    font-family: 'Cinzel', serif;
+    text-shadow: 2px 1px cadetblue;
+}
+
+.Greece {
+    border: 2px solid black;
+    margin: none;
+    padding: 0.5em;
+    width: 100vw;
+    height: 20vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -200px;
+    width: 95vw;
+}
+
+.country__name {
+    display: flex;
+    justify-content: center;
+    font-family: 'Cinzel', serif;
+    text-shadow: 2px 1px cadetblue;
+}
+
+.titles {
+    font-family: 'Cinzel', serif;
+    text-shadow: 2px 1px cadetblue;
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+
+
+/* <style> */ */
+.zoom {
+  padding: 50px;
+  transition: transform .100s; /* Animation */
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  
+}
+
+.zoom:hover {
+  transform: scale(3.5); 
+  }
