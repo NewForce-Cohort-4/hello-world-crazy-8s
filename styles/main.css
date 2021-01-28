@@ -1,54 +1,117 @@
-@import "nav-bar.css";
-@import "footer.css";
-@import "newlayout.css";
+/* Nav Bar Styling */
+@import "nav-bar.css"; 
+/* Footer Styling */
+@import "footer.css"; 
 
-
-.country-img {
-    size: 40vh;
-    display: flex;
-    justify-content: flex-start;
-
+/* Set Variables */
+:root {
+    /* Define Color Variables */
+    --mainBlue: #53ADC7;
+    --navyBlue: #023436;
+    --goldYellow: #E6AF2E;
+    --umber: #7C6354;
+    --gray: #D0E1E4;
+    --listCardWidth: 28vw;
 }
 
-/* * {
-    border: dotted black;
-} */
+/* -------------------------- General Styling -------------------------- */
+* {
+    /* border: 1px dotted black; */
+    background-color: var(--gray);
+    color: var(--navyBlue);
+    font-family: Arial, Helvetica, sans-serif;
+}
 
-.country-img {
+.flex-Container {
     display: flex;
-    width: 55vw;
-    margin-left: 18%;
-    background-size: 2em;
-    
-    
+}
+
+
+/* -------------------------- Header Styling -------------------------- */
+header {
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: xx-large;
+    background-color: var(--mainBlue);
+}
+
+h1 {
+    background-color: var(--mainBlue);
+}
+
+.globe {
+    height: 20vh; 
+    background-color: var(--mainBlue);
+}
+
+/* -------------------------- Country Header Styling -------------------------- */
+.country-img {
+    border: 2px solid black;
+    margin: none;
+    padding: none;
+    width: 100vw-1em;
+    height: 35vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -20vw;
 }
 
 .country-name {
-    font-family: Arial, Helvetica, sans-serif;
-    justify-content: left;
-    display: flex;
-    align-content: flex-start;
+    padding-left: 1em;
+    padding-right: 1em;
+    text-align: center;
+    background-color: var(--mainBlue);
 }
 
-/* Footer Styling */
+h2 {
+    background-color: var(--mainBlue);
+}
 
-/* Navbar styling
- */
+/* -------------------------- List Section Styling -------------------------- */
+section.flex-Container {
+    justify-content: space-evenly;
+}
 
- .globe {
-    height: 20vh; 
- }
- 
- .nav-container {
-     display: flex;
-     justify-content: space-evenly;
- }
- 
- .links {
-     text-decoration: none;
-     
- }
- 
- .nav-item {
-     list-style-type: none;
- }
+div.flex-Container {
+    flex-direction: column;
+    width: var(--listCardWidth);
+    background-color: var(--goldYellow);
+}
+
+article {
+    background-color: var(--goldYellow);
+    border: 2px solid var(--navyBlue)
+}
+h3 {
+    text-align: center;
+    border-bottom: 2px solid var(--umber);
+    background-color: var(--goldYellow);
+    padding: 0;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    margin-bottom: 0;
+}
+
+h4 {
+    margin: 0;
+    padding-top: 1em;
+    padding-left: 1em;
+    background-color: var(--goldYellow)
+}
+
+div ul {
+    background-color: var(--goldYellow);
+}
+
+div ul li {
+    background-color: var(--goldYellow);
+}
+
+.list-img {
+    width: var(--listCardWidth);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
