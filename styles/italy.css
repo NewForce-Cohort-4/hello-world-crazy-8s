@@ -1,0 +1,152 @@
+@import "nav-bar.css"; /* Nav Bar Styling */
+@import "footer.css"; /* Footer Styling */
+
+* {
+    /* border: 1px dotted black; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 1em;
+    background-color: slategrey;
+}
+
+/* Header/Logo Styling */
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Cinzel', serif;
+    text-shadow: 2px 1px slategrey
+    font-size: 4em;
+}
+
+.globe {
+    height: 25vh;
+}
+
+
+/* Navbar Syling */
+
+ .nav-container {
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px solid black;
+
+}
+
+.links {
+    text-decoration: none;
+}
+
+.nav-item {
+    list-style-type: none;
+    font-size: large;
+    margin: 25px 0px
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  } 
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+
+
+/* Country Image/Name Styling */
+
+.country-intro {
+    justify-content: center;
+    align-items: center;
+    font-family: 'Cinzel', serif;
+    text-shadow: 2px 1px slategrey
+}
+
+.country-image {
+    border: 2px solid black;
+    margin: none;
+    padding: none;
+    width: 100vw-1em;
+    height: 35vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    background: url(https://cdn1.matadornetwork.com/blogs/1/2011/05/italy-1200x815.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -20vw;
+}
+
+
+.country-name {
+    font-family: 'Cinzel', serif;
+    text-shadow: 2px 1px slategrey;
+    font-size: 4em;
+    text-align: center;
+    margin: 1em 0 0 0;
+}
+
+.country-quote {
+    text-align: center;
+    font-style: italic;
+    font-size: 1em;
+    margin: 1em 0 2em 0;
+}
+
+/* List Styling */
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    flex-basis: content;
+}
+
+.list {
+    width: 35vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list-title {
+    font-size: large;
+    align-items: center;
+    font-family: 'Cinzel', serif;
+    text-shadow: 2px 1px slategrey;
+    font-size: 2em;
+}
+
+.list-container {
+   justify-content: center;
+}
+
+.list-item {
+    margin: 40px 40px 0 40px;
+    text-align: center;
+    list-style-type: none;
+
+}
+
+.list-image {
+    width: 25vw;
+    height: 30vh;
+    list-style-type: none;
+    margin-top: 0px;
+}
+

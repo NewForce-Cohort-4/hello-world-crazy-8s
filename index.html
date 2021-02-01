@@ -3,117 +3,103 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hello World - Crazy 8's</title>
   <link rel="stylesheet" href="styles/main.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap" rel="stylesheet">
+
+<!-- pageTitle -->
+  <title>Hello World - Crazy 8's</title>
 </head>
 <body>
     
-  <!--Page Header-->
-  <header class="flex-Container">
-      <img class = "globe" src="http://www.pngall.com/wp-content/uploads/2016/06/Globe-Free-Download-PNG.png
-      " alt="Globe"/>
-      <h1>Crazy 8's Travel</h1>
-  </header>
+      <!--Page Header-->
+<header>
+    
+    <img class = "globe" src="http://www.pngall.com/wp-content/uploads/2016/06/Globe-Free-Download-PNG.png" alt="Globe"/>
 
-  <!-- NavBar -->
-  <nav class="navbar navbar-light bg-light">
-    <form class="container-fluid justify-content-start nav-container">
-      <button class="btn btn-outline-success me-2" type="button" id="belgium-nav-link">Belgium</button>
-      <button class="btn btn-outline-success me-2" type="button" id="greece-nav-link">Greece</button>
-      <button class="btn btn-outline-success me-2" type="button" id="italy-nav-link">Italy</button>
-      <button class="btn btn-outline-success me-2" type="button" id="norway-nav-link">Norway</button>
-    </form>
-  </nav>
+    <h1 class = "co__name">Crazy 8's Travel</h1>
+    <h1 class = "motto">"We'll get you there!"</h1>
+</header>
+
+        <!-- NavBar -->
+
+    <nav>
+        <ul class = "nav-container">
+            <li class = "nav-item">
+                <a class = "links" href = "belgium.html">Belgium</a>
+            </li>
+            <li class = "nav-item">
+                <a class = "links" href = "index.html">Greece</a>
+            </li>
+            <li class = "nav-item">
+                <a class = "links" href = "italy.html">Italy</a>
+            </li>
+            <li class = "nav-item">
+                <a class = "links" href = "norway.html">Norway</a>
+            </li>
+        </ul>
+    </nav>
+
+     <!-- country image -->
   
-  <!-- Main Content Container -->
-  <main>
-    <!-- 
-    <section class="country-img">
-      <img  src="https://www.planetware.com/wpimages/2019/12/belgium-best-cities-to-visit-antwerp.jpg"
-        alt="Martin's Logo"/>
-    </section>
-      
-    country name in headline
-    <section class="country-name">
-      <h2>Norway</h2>
+ <img class = "Greece"
+ src="https://i.pinimg.com/564x/97/b6/5d/97b65d78855cd54b0053d43021f97edf.jpg"
+ alt="Greece" class = "country-img" height = "100vh">
+</section>  
+ <section class="country-name"></section>
+</div>
+
+<!-- </section>  -->
+ <!--country name in headline-->
+ <section class = "country__name"><h2>Greece</h2></section>
+
+     <section>
+<!-- List of Cities -->
+<section class = "bullets">
+    <div>
+    <h2 class="titles">Cities</h2>
+        <ul>
+          <li> <img class = "zoom" src="https://ychef.files.bbci.co.uk/1600x900/p07qsmyr.webp" alt="Athens" height="30px"> Athens</li>
+            <br>
+          <li><img class = "zoom" src="https://www.greecetravel.com/peloponnesos/the-argolis.jpg" alt="Corinth" height="30px"> Corinth</li>
+            <br>
+          <li><img class = "zoom" src="https://img.theculturetrip.com/1440x807/smart/wp-content/uploads/2017/11/ioannina-1066022_1280-1.jpg" alt="Ioannina" height="30px">Ioannina</li>
+        </ul>
+    </div>
+
+ <!-- List of Landmarks -->
+    <div id = "landmarks">
+    <h2 class="titles">Landmarks</h2>
+        <ul>
+          <li><img class = "zoom" src="https://wpcluster.dctdigital.com/dcthomsontravelhub/wp-content/uploads/sites/23/2018/11/iStock-171371923-re-sized.jpg" alt="temple" height="30px"> Acropolis</li>
+            <br>
+          <li><img class = "zoom" src="https://wpcluster.dctdigital.com/dcthomsontravelhub/wp-content/uploads/sites/23/2018/11/iStock-976987790-re-sized.jpg" alt="temple" height="30px"> Temple of Olympian Zeus</li>
+            <br>
+          <li><img class = "zoom" src="https://wpcluster.dctdigital.com/dcthomsontravelhub/wp-content/uploads/sites/23/2018/11/iStock-171371506-re-sized.jpg" alt="temple" height="30px"> Parthenon</li>
+        </ul>
+    </div>
+
+<!-- List of Famous Citizens -->
+    <div id = "citizens">
+    <h2 class = "titles">Famous Citizens</h2>
+        <ul>
+          <li><img class = "zoom" src="https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTE4MDAzNDEwNTU4NjgyNjM4/homer-9342775-1-402.jpg" alt="Homer" height="30px"> Homer</li>
+          <br>
+          <li><img class = "zoom" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Alexander_the_Great_portrait_Istanbul_Archaeological_Museum_-_inv._1138_T_02.jpg/401px-Alexander_the_Great_portrait_Istanbul_Archaeological_Museum_-_inv._1138_T_02.jpg" alt="Alex" height="30px">Alexander The Great </li>
+          <br>
+          <li><img class = "zoom" src="https://sportshub.cbsistatic.com/i/r/2019/05/07/5134abc9-ae9f-4a89-b2f7-ebe4634710ac/thumbnail/140x140/0b8c6b415ce497387923b2234e8c1f4f/giannis-antetokounmpo-bucks.jpg" alt="Giannis" height="30px"> Giannis Antetokounmpo</li>
+        </ul>
+    </div>
     </section>
     
-    <section class="flex-Container">   
-      List of Cities
-      <article>
-        
-        <h3>Cities</h3>
-        <div class="flex-Container">
-          <div>
-            <h4>Oslo</h4>
-            <img class="list-img" src="https://miro.medium.com/max/620/1*KEaqE8G6XoXeB1GYXjs1Dg.jpeg" alt="Oslo, Norway">
-          </div>
-          <div>
-            <h4>Flam</h4>
-            <img class="list-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/20140629_Norway_0311_Fl%C3%A5m.jpg/275px-20140629_Norway_0311_Fl%C3%A5m.jpg" alt="Flam, Norway">
-          </div>
-          <div>
-            <h4>Bergen</h4>
-            <img class="list-img" src="https://familytraveller.com/usa/wp-content/uploads/sites/2/2019/10/bergen-norway-frozen-inspired-family-vacation.jpg" alt="Bergen, Norway">
-          </div>
-          <div>
-            <h4>Tromso</h4>
-            <img class="list-img" src="http://www.muni.org/Departments/Mayor/Boards/SisterCities/SiteAssets/Pages/Tromso/norway-tromso-city-fotolia-2-jpg_header-170177.jpeg" alt="Tromso, Norway">
-          </div>
-        </div>
-      </article>
+    <!-- Footer Component with Copyright info -->
+    
+    
+        <footer>
+            <p><a href="index.html">Back to Main Page</a></p>
+            <p>Copyright Info Here</p>
+        </footer>
 
-      List of Landmarks
-      <article>
-        <h3>Landmarks</h3>
-        <div class="flex-Container">
-          <div>
-            <h4>The Arctic Circle</h4>
-            <img class="list-img" src="https://familytraveller.com/usa/wp-content/uploads/sites/2/2019/10/Northern-Lights-Norway.jpg" alt="Northern Lights">
-          </div>
-          <div>
-            <h4>Hamnoy</h4>
-            <img class="list-img" src="https://i1.wp.com/handluggageonly.co.uk/wp-content/uploads/2017/12/Hand-Luggage-Only-12-2.jpg?resize=1024%2C690&ssl=1" alt="Hamnoy">
-          </div>
-          <div>
-            <h4>Trolltunga</h4>
-            <img class="list-img" src="https://i1.wp.com/handluggageonly.co.uk/wp-content/uploads/2017/12/Hand-Luggage-Only-29.jpg?resize=1024%2C683&ssl=1" alt="Trolltunga">
-          </div>
-          <div>
-            <h4>Geirangerfjord</h4>
-            <img class="list-img" src="https://i1.wp.com/handluggageonly.co.uk/wp-content/uploads/2017/12/Hand-Luggage-Only-31.jpg?w=1600&ssl=1" alt="Geirangerfjord">
-          </div>
-        </div>
-      </article>
-      List of Famous Citizens
-      <article>
-        <h3>Famous Citizens</h3>
-        <div class="flex-Container">
-          <div>
-            <h4>Thor. Maybe?</h4>
-            <img class="list-img" src="https://images-na.ssl-images-amazon.com/images/G/01/digital/video/hero/Movies/2013/ThorDarkWorld_2194942100-TDW0NNG1._V362444527_SX1080_.jpg" alt="Thor">
-          </div>
-          <div>
-            <h4>Odin</h4>
-            <img class="list-img" src="https://vignette.wikia.nocookie.net/05ebd8fb-9efe-4373-9aa0-27719fa5ce63/scale-to-width-down/800" alt="Odin">
-          </div>
-          <div>
-            <h4>Loki</h4>
-            <img class="list-img" src="https://terrigen-cdn-dev.marvel.com/content/prod/1x/017lok_ons_mas_mob_03.jpg" alt="Loki">
-          </div>
-        </div>
-      </article>
-    </section> -->
-  </main>
-  <!-- Footer Component with Copyright info -->
-  <footer>
-      <p><a href="index.html">Back to Main Page</a></p>
-      <p>Copyright Info Here</p>
-  </footer>
-
-  <script type="module" src="./scripts/main.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 </body>
 </html> 
 
